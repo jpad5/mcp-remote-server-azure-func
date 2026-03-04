@@ -46,21 +46,21 @@ There are two distinct approaches to hosting MCP servers on Azure Functions. Und
 flowchart TB
     subgraph ExtApproach["MCP Extension for Azure Functions"]
         direction TB
-        E1["Your code: tool logic only\n(McpToolTrigger attribute)"]
-        E2["MCP protocol handling:\nmanaged by Functions host"]
-        E3["Transport: built-in\nSSE + Streamable HTTP"]
+        E1["Your code: tool logic only(McpToolTrigger attribute)"]
+        E2["MCP protocol handling: managed by Functions host"]
+        E3["Transport: built-in SSE + Streamable HTTP"]
         E1 --> E2 --> E3
     end
 
     subgraph SDKApproach["Self-hosted MCP SDK"]
         direction TB
-        S1["Your code: tool logic +\nserver setup (MCP SDK)"]
-        S2["MCP protocol handling:\nyour responsibility"]
-        S3["Transport: configured\nin your SDK setup"]
+        S1["Your code: tool logic + server setup (MCP SDK)"]
+        S2["MCP protocol handling: your responsibility"]
+        S3["Transport: configured in your SDK setup"]
         S1 --> S2 --> S3
     end
 
-    ExtApproach -.- note1["✅ This project uses\nthis approach"]
+    ExtApproach -.- note1["✅ This project uses this approach"]
 
     style note1 fill:#d4edda,stroke:#28a745,color:#155724
     style ExtApproach fill:#e7f3ff,stroke:#0078d4
