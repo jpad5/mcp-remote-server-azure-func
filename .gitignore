@@ -410,3 +410,6 @@ test-mcp.js
 
 # Test scripts
 test-mcp.js
+
+# Local Azure Functions settings (may contain secrets)
+local.settings.json
