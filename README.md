@@ -24,7 +24,7 @@ A remote [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server
 
 Use this template to quickly build, debug, and deploy your own remote MCP server to Azure. The server is secured by design with HTTPS and function keys, and supports optional network isolation via VNET.
 
-> **📚 Part of the Remote MCP Functions collection** — This project is one of the language-specific implementations from the [Azure-Samples/remote-mcp-functions](https://github.com/Azure-Samples/remote-mcp-functions?tab=readme-ov-file) repository, which provides quickstart templates for building remote MCP servers on Azure Functions across multiple languages (Python, TypeScript, C#, Java). Visit the [overview repo](https://github.com/Azure-Samples/remote-mcp-functions?tab=readme-ov-file) for the full catalog and additional resources.
+> **📚 Based on the Remote MCP Functions collection** — This project is one of the language-specific implementations from the [Azure-Samples/remote-mcp-functions](https://github.com/Azure-Samples/remote-mcp-functions?tab=readme-ov-file) repository, which provides quickstart templates for building remote MCP servers on Azure Functions across multiple languages (Python, TypeScript, C#, Java). Visit the [overview repo](https://github.com/Azure-Samples/remote-mcp-functions?tab=readme-ov-file) for the full catalog and additional resources.
 
 ## Background — Why Remote MCP on Azure Functions?
 
@@ -329,7 +329,6 @@ azd down
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
